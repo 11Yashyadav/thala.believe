@@ -1,3 +1,3 @@
 <footer>
-    Footer contain 2 buttons (next and previous)
-</footer>
+        <p>&copy;2023 M.S. Dhoni - Captain Cool</p>
+    </footer>
