@@ -19,6 +19,18 @@ Route::get('/', function () {
 // Route::get('/', function () {
 //     return "aboutus";
 // });
+Route::get('/career', function () {
+    return view('career');
+});
+Route::view('/aboutus','aboutus',[
+    'name'=>'Yash'
+]);
+Route::get('/achievement', function () {
+    return view('achievement');
+});
+Route::get('/contact', function () {
+    return view('contact');
+});
 Route::view('/aboutus','aboutus',[
     'name'=>'Yash'
 ]);

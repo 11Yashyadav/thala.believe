@@ -11,7 +11,7 @@
         @yield('appContents')
         <h2>Contact details</h2>
     </div>
-<section id="contact">
+<section id="achievements">
         <!-- Add content about M.S. Dhoni's notable achievements -->
     <div>
     <a href = "/">Home</a>

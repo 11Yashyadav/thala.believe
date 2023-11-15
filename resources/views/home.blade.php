@@ -4,6 +4,6 @@
 @extends('layout.app')
 @section('appContents')
 <div>
-    
+    <h1></h1>
 </div>
 @stop

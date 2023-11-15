@@ -6,8 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>About us</h1>
-    <div>{{ $name }}</div>
+<div class="container">
+        @include('layout.header')
+        @yield('appContents')
+        <h2>Achievements</h2>
+        
+    </div>
+<section id="achievements">
+        <!-- Add content about M.S. Dhoni's notable achievements -->
+    <div>
     <a href = "/">Home</a>
+    @include('layout.footer')
+    </div>
+    </section>
 </body>
 </html>
