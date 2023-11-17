@@ -9,7 +9,7 @@
 <div class="container">
         @include('layout.header')
         @yield('appContents')
-        <h2>Contact details</h2>
+        <h2>Career details</h2>
     </div>
 <section id="achievements">
         <!-- Add content about M.S. Dhoni's notable achievements -->

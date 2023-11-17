@@ -5,7 +5,7 @@
             color: white;
             text-align: center;
             padding: 1em;
-            position: fixed;
+            position: auto;
             bottom: 0;
             width: 100%;
         }

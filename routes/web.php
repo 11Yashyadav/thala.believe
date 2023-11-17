@@ -22,18 +22,16 @@ Route::get('/', function () {
 Route::get('/career', function () {
     return view('career');
 });
-Route::view('/aboutus','aboutus',[
-    'name'=>'Yash'
-]);
 Route::get('/achievement', function () {
     return view('achievement');
 });
 Route::get('/contact', function () {
     return view('contact');
 });
-Route::view('/aboutus','aboutus',[
-    'name'=>'Yash'
-]);
+Route::get('/aboutus', function () {
+    return view('aboutus');
+});
+
 // Route::get('/person/{name}', function($name){
 //     return "The name is $name.";
 // });
